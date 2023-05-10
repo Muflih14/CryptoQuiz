@@ -1,6 +1,116 @@
-.App {
-  text-align: center;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url(https://fonts.googleapis.com/css?family=Rye);
+
+body {
+  background-color: rgb(218, 235, 240);
 }
+
+.hero {
+  background-image: url("https://media.licdn.com/dms/image/D5612AQGuDrtKf3cfJw/article-cover_image-shrink_720_1280/0/1661447343838?e=2147483647&v=beta&t=mmG5Bu19cEWMXzcCPreco-MkjFYewS4uj-_tdBLPa-o");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.game-home {
+  background-image: url("../public/play.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.direction-buttons {
+  height: 200px;
+  width: 400px;
+  background: rgb(228, 180, 60);
+  background: radial-gradient(
+    circle,
+    rgba(228, 180, 60, 1) 0%,
+    rgba(226, 135, 1, 1) 51%,
+    rgba(244, 239, 0, 1) 92%
+  );
+  margin-bottom: 20%;
+}
+
+.home-buttons-div {
+  padding: 10%;
+}
+
+.dir-button {
+  font: normal 70px/150px "Rye";
+  padding: 5% 17%;
+}
+
+.dir-button1 {
+  font: normal 60px/70px "Rye";
+  padding: 11% 10% ;
+}
+
+.start-button {
+  font: normal 70px/150px "Rye";
+  height: 200px;
+  width: 500px;
+  margin: 15% 20% 20% 10%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.egg {
+  --size: 200px;
+  display: block;
+  width: var(--size);
+  height: calc(var(--size) * 1.44);
+  background-color: #96d2d3;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  margin-left: 50px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.box-shadow {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  height: 400px;
+  width: 400px;
+  background-color: #8fb3bd;
+}
+
+.play-section {
+  background-image: url("../public/play.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.play-div {
+  height: 600px;
+  display: flex;
+  flex-direction: colum;
+  justify-items: center;
+}
+
+.marketting-section {
+  height: 700px;
+  width: 700px;
+}
+
+.m-contents {
+  width: 150%;
+}
+
+.marketting-logo {
+  background: radial-gradient(
+    circle,
+    rgba(204, 242, 247, 1) 0%,
+    rgba(148, 168, 233, 1) 100%
+  );
+  height: 500px;
+  width: 500px;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -11,21 +121,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
