@@ -1,0 +1,224 @@
+{
+	"questions": [
+		{
+			"id": 1,
+			"question": "What is the main goal of Web3 technology?",
+			"answers": {
+				"A": "To create a decentralized web that is controlled by a small group of individuals",
+				"B": "To create a decentralized web that is controlled by a large number of users",
+				"C": "To create a centralized web that is more secure",
+				"D": "To create a centralized web that is more efficient"
+			},
+			"correctAnswer": "B"
+		},
+		{
+			"id": 2,
+			"question": "What is a smart contract?",
+			"answers": {
+				"A": "A contract that is legally binding in the physical world",
+				"B": "A contract that is legally binding in the digital world",
+				"C": "A contract that executes automatically based on predetermined conditions",
+				"D": "A contract that can only be accessed by a select group of people"
+			},
+			"correctAnswer": "C"
+		},
+		{
+			"id": 3,
+			"question": "What is the main benefit of using a decentralized application (DApp) over a traditional application?",
+			"answers": {
+				"A": "DApps are faster",
+				"B": "DApps are more secure",
+				"C": "DApps can be accessed by anyone, anywhere in the world",
+				"D": "DApps are cheaper to develop"
+			},
+			"correctAnswer": "B"
+		},
+		{
+			"id": 4,
+			"question": "What is a blockchain?",
+			"answers": {
+				"A": "A digital ledger that records transactions in chronological order",
+				"B": "A digital ledger that records transactions in reverse chronological order",
+				"C": "A digital ledger that records transactions randomly",
+				"D": "A digital ledger that records only certain types of transactions"
+			},
+			"correctAnswer": "A"
+		},
+		{
+			"id": 5,
+			"question": "What is a cryptocurrency?",
+			"answers": {
+				"A": "A physical coin that can be used for online transactions",
+				"B": "A digital currency that uses encryption techniques to secure transactions",
+				"C": "A digital currency that is backed by a government",
+				"D": "A digital currency that can only be used on a certain platform"
+			},
+			"correctAnswer": "B"
+		},
+		{
+			"id": 6,
+			"question": "What is an NFT?",
+			"answers": {
+				"A": "A non-financial token that can be traded on a blockchain",
+				"B": "A non-fungible token that represents ownership of a unique digital asset",
+				"C": "A non-fungible token that represents ownership of a physical asset",
+				"D": "A non-financial token that represents ownership of a company"
+			},
+			"correctAnswer": "B"
+		},
+		{
+			"id": 7,
+			"question": "What is a decentralized autonomous organization (DAO)?",
+			"answers": {
+				"A": "An organization that is controlled by a single person",
+				"B": "An organization that is controlled by a group of people",
+				"C": "An organization that is controlled by a set of rules encoded on a blockchain",
+				"D": "An organization that is controlled by a government"
+			},
+			"correctAnswer": "C"
+		},
+		{
+			"id": 8,
+			"question": "What is a Web3 browser?",
+			"answers": {
+				"A": "A browser that is used to access websites that use Web3 technology",
+				"B": "A browser that is used to access websites that use Web2 technology",
+				"C": "A browser that is used to access websites that use Web1 technology",
+				"D": "A browser that is used to access physical stores"
+			},
+			"correctAnswer": "A"
+		},
+		{
+			"id": 9,
+			"question": "What is a decentralized exchange (DEX)?",
+			"answers": {
+				"A": "An exchange that is controlled by a central authority",
+				"B": "An exchange that is controlled by a decentralized network",
+				"C": "An exchange that is only accessible to a select group of people",
+				"D": "An exchange that only supports certain cryptocurrencies"
+			},
+			"correctAnswer": "B"
+		},
+		{
+			"id": 10,
+			"question": "What is Web3 infrastructure?",
+			"answers": {
+				"A": "The hardware used to run Web3 technology",
+				"B": "The software used to develop Web3 applications",
+				"C": "The protocols and standards used by Web3 technology",
+				"D": "The user interface of Web3 applications"
+			},
+			"correctAnswer": "C"
+		},
+		{
+			"id": 11,
+			"question": "What is a smart contract?",
+			"answers": {
+				"A": "A contract that is legally binding in the physical world",
+				"B": "A contract that is legally binding in the digital world",
+				"C": "A contract that executes automatically based on predetermined conditions",
+				"D": "A contract that can only be accessed by a select group of people"
+			},
+			"correctAnswer": "C"
+		},
+		{
+			"id": 12,
+			"question": "What is the main benefit of using a decentralized application (DApp) over a traditional application?",
+			"answers": {
+				"A": "DApps are faster",
+				"B": "DApps are more secure",
+				"C": "DApps can be accessed by anyone, anywhere in the world",
+				"D": "DApps are cheaper to develop"
+			},
+			"correctAnswer": "B"
+		},
+		{
+			"id": 13,
+			"question": "What is a cryptocurrency?",
+			"answers": {
+				"A": "A physical coin that can be used for online transactions",
+				"B": "A digital currency that uses encryption techniques to secure transactions",
+				"C": "A digital currency that is backed by a government",
+				"D": "A digital currency that can only be used on a certain platform"
+			},
+			"correctAnswer": "B"
+		},
+		{
+			"id": 14,
+			"question": "What is the main advantage of a decentralized storage network over traditional cloud storage solutions?",
+			"answers": {
+				"A": "Faster access times",
+				"B": "Higher capacity limits",
+				"C": "Lower costs",
+				"D": "Improved security"
+			},
+			"correctAnswer": "D"
+		},
+		{
+			"id": 15,
+			"question": "What is the main function of a Web3 wallet?",
+			"answers": {
+				"A": "To store and manage cryptocurrency assets",
+				"B": "To manage website passwords",
+				"C": "To encrypt and secure personal data",
+				"D": "To access decentralized applications"
+			},
+			"correctAnswer": "A"
+		},
+		{
+			"id": 16,
+			"question": "What is a decentralized identifier (DID)",
+			"answers": {
+				"A": "A unique identifier that is assigned by a centralized authority",
+				"B": "A unique identifier that is generated by a blockchain network",
+				"C": "A unique identifier that is used to track user behavior",
+				"D": "A unique identifier that is associated with a specific geographic location"
+			},
+			"correctAnswer": "B"
+		},
+		{
+			"id": 17,
+			"question": "What is a decentralized finance (DeFi) application?",
+			"answers": {
+				"A": "An application that enables individuals to borrow and lend funds without the need for a central authority",
+				"B": "An application that enables individuals to purchase and sell goods and services using cryptocurrency",
+				"C": "An application that enables individuals to earn passive income by holding cryptocurrency assets",
+				"D": "An application that enables individuals to make charitable donations using cryptocurrency"
+			},
+			"correctAnswer": "A"
+		},
+		{
+			"id": 18,
+			"question": "What is a Web3 gateway?",
+			"answers": {
+				"A": "An access point that enables users to connect to the Web3 network",
+				"B": " A service that provides users with a personalized Web3 experience",
+				"C": "A platform that aggregates data from multiple Web3 sources",
+				"D": "A tool that enables developers to build Web3 applications"
+			},
+			"correctAnswer": "A"
+		},
+		{
+			"id": 19,
+			"question": "What is a decentralized identity (DID) resolver?",
+			"answers": {
+				"A": "A tool that enables users to verify their identity on the Web3 network",
+				"B": "A platform that enables developers to build decentralized identity solutions",
+				"C": "A protocol that ensures the security of Web3 identity transactions",
+				"D": "A service that provides users with access to decentralized identity solutions"
+			},
+			"correctAnswer": "D"
+		},
+		{
+			"id": 20,
+			"question": "What is a decentralized oracle network?",
+			"answers": {
+				"A": "A network that enables users to connect to the internet without the need for a central authority",
+				"B": "A network that provides accurate and reliable data to decentralized applications",
+				"C": " A network that enables users to access decentralized exchanges without the need for a central authority",
+				"D": "A network that provides security and encryption services to decentralized applications"
+			},
+			"correctAnswer": "B"
+		}
+	]
+}
