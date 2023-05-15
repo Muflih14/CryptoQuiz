@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../Footer";
 
 const Navbar = ({ children }) => {
   return (
@@ -22,6 +23,7 @@ const Navbar = ({ children }) => {
         </div>
       </div>
       <div>{children}</div>
+      <Footer />
     </div>
   );
 };
