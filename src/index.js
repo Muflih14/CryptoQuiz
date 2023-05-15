@@ -5,15 +5,23 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Game from "./components/Game";
+import Questions from "./components/Challenges/Questions";
+import Navbar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Difficulty from "./components/Challenges/Difficulty";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/home" element={<Game />} />
+        <Route path = "/challenges" element={<Difficulty />} />
+        <Route path="/challenge/:difficulty" element={<Questions />} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>
 );

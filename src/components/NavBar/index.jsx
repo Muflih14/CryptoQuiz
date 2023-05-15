@@ -2,9 +2,9 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="flex mt-4 items-center justify-between flex-wrap bg-white text-indigo-800 p-6 shadow-blue-800 shadow-lg">
+    <nav className="flex items-center justify-between flex-wrap bg-white text-indigo-800 p-6 shadow-blue-800 shadow-lg">
       <div className="flex items-center flex-shrink-0 text-indigo-600 mr-6">
-        <span className="font-semibold text-xl mr-24 tracking-tight">My App</span>
+        <span className="font-semibold text-xl mr-24 tracking-tight">Cryptoquiz</span>
       </div>
       <div className="block lg:hidden">
         <button className="flex items-center px-3 py-2 border rounded text-indigo-600 border-indigo-800 hover:text-white hover:indigo-400">

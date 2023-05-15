@@ -9,7 +9,6 @@ export default function Game (){
             <Header>
                 <Home />
             </Header>
-            <Footer/>
         </div>
     )
 };
