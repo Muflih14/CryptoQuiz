@@ -92,13 +92,23 @@ body {
 
 .egg {
   --size: 200px;
-  display: block;
+  display: flex;
+  align-items: flex-end; /* Align items at the bottom */
+  justify-content: center; /* Center align horizontally */
   width: var(--size);
   height: calc(var(--size) * 1.44);
   background-color: #96d2d3;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  margin-top: 5%;
   margin-left: 50px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.user-avatar {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px; /* Add margin at the bottom */
+  background-color: rgba(226, 135, 1, 1);
 }
 
 .box-shadow {

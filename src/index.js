@@ -9,6 +9,7 @@ import Questions from "./components/Challenges/Questions";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Difficulty from "./components/Challenges/Difficulty";
+import ProfileScreen from "./components/Profile/index";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,7 +19,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/home" element={<Game />} />
-        <Route path = "/challenges" element={<Difficulty />} />
+        <Route path="/profile" element={<ProfileScreen />} />
+        <Route path="/challenges" element={<Difficulty />} />
         <Route path="/challenge/:difficulty" element={<Questions />} />
       </Routes>
       <Footer />
