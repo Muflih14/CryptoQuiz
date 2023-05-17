@@ -5,8 +5,8 @@ function Welcome() {
   return (
     <div>
       <div className="justify-between text-white mt-4 welcome">
-        <div class=" p-12 shadow-lg overflow-hidden mt-10 welcome-section">
-          <h1 class="text-5xl font-semibold mb-2 mt-14 font-extrabold text-2xl app-name">
+        <div class=" p-12 shadow-lg overflow-hidden welcome-section">
+          <h1 class="text-5xl font-semibold mb-2 mt-14 app-name">
             CryptoQuiz
           </h1>
           <h2 class="text-xl font-semibold mt-4 mb-2 sub-title">

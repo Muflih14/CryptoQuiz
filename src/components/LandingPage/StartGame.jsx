@@ -16,7 +16,7 @@ export default function StartGame() {
   
     <div class="flex flex-grow justify-end mt-28">
       <button class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 
-        hover:to-purple-500 text-white font-bold py-4 px-8 rounded-lg shadow-md 
+        hover:to-purple-500 text-white py-4 px-8 rounded-lg shadow-md 
         font-mono text-7xl font-black drop-shadow-2xl animate-pulse start-button">
         <a href="/home">Start Game</a>
       </button>
